@@ -4,33 +4,46 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
-}
-
-body{
-    background-color: bisque;
-    font-weight: 400;
-    font-size: 1.5rem;
-    background-image: -moz-linear-gradient();
-}
-
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
-    background-color: none;
-    font-size: 20px;
     
 }
 
-.nav-class{
-    list-style: none;
-
+body{
+    background-color: rgb(250, 234, 214);
+    font-weight: 400;
+    font-size: 1.5rem;
+    
 }
 
-.nav-class li{
+header{
+    background-color: rgba(255, 255, 255, 0.342);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10%;
+    font-weight: 900;
+    font-size: large;
+    position:sticky;
+}
+
+nav{
+    width: 100%;
+   
+    text-align:end;
+    background-color: rgba(255, 255, 255, 0.164);
+}
+
+
+
+nav ul{
+    width:100%;
+    margin-top: 10px;
+}
+
+nav ul li{
     display: inline-block;
-    padding: 0px 20px;
+    list-style: none;
+    margin: 20px;
+    color: #ffff;
 }
 
 .nav-class a{
@@ -39,7 +52,7 @@ header{
 }
 
 .nav-class li a:hover{
-    color: white;
+    color: rgb(248, 108, 132);
     cursor: pointer;
 
 }
@@ -48,45 +61,52 @@ header{
     display: flex;
     align-items:flex-end;
     padding: 10px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.253);
     box-sizing: border-box;
     margin: 0; 
 }
 
-.sticky{
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
 
 .Home{
-    text-align: left;
-    padding-top: 20rem;
-    padding-left: 10rem;
-    margin-bottom: 20rem;
-    margin-left: 20rem;
+    text-align:justify;
     line-height: 1;
-    display: block;
-    justify-content:end;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/background.jpg);
+    background-position: center;
+    background-size: cover;
+    
     
 }
 
-.Majorie-Najjombwe{
+.Hey-there-I-am{
+    padding-top: 70rem;
     font-size: larger;
+    font-weight: 900;
+    color: white;
+}
+
+.Majorie-Najjombwe{
+    font-size: 50px;
     color: rgb(236, 140, 156);
     font-weight: 900;
 }
 
-
+.I-am-developer{
+    font-size: larger;
+    font-weight: 900;
+    color: white;
+}
 
 .About-me{
     text-align: left;
     padding-top: 1rem;
-    margin-bottom: 20rem;
+    margin-bottom: 10rem;
     margin-left: 0rem;
-    line-height: 1;
+    line-height: 0;
     display: flex;
-    justify-content:end
+    justify-content:center;
+    font-size: smaller;
 }
 
 .About-me img{
@@ -105,43 +125,35 @@ header{
     line-height: 2;
 }
 
-main{
-    margin-left: 0rem;
-    margin-right: 0rem;
-    display: flex;
-    border-radius: 0%;
-}
+
 
 main h1{
-    margin-left: 2rem;
+    margin-left: 50rem;
 }
 
-
-main img{
-    width:25%;
-    display: inline-block;
-    align-items: center;
-    margin-left: 30%;
-}
 
 .column{
     float: left;
-    width: 50%;
+    width: 33.33%;
     padding: 30px;
-    margin-left: 40px;
+    margin-left: 650px;
     margin-right: 40%;
-    padding-top: 20%;
+    align-items: center;
+    
+
 }
 
-.para{
-    margin-left: 10rem;
+.column img{
+    height: 400px;
+    width: 200px;
 }
 
 .subscribe-title{
     align-items: baseline;
     margin-left: 35%;
     font-size: medium;
-    padding-top: 2rem;
+    padding-top: 20rem;
+    margin-top: 20rem;
 }
 
 .form-group{
@@ -203,7 +215,7 @@ input{
 
 .footer{
     padding-bottom: 10%;
-    padding-top: 10%;
+    padding-top: 30%;
     
     
 }
