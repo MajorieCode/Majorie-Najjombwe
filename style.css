@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    background-color: bisque;
+    font-weight: 400;
+    font-size: 1.5rem;
+    background-image: -moz-linear-gradient();
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: none;
+    font-size: 20px;
+    
+}
+
+.nav-class{
+    list-style: none;
+
+}
+
+.nav-class li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-class a{
+    transition: 0.3s;
+
+}
+
+.nav-class li a:hover{
+    color: white;
+    cursor: pointer;
+
+}
+
+.navbar{
+    display: flex;
+    align-items:flex-end;
+    padding: 10px;
+    background-color: white;
+    box-sizing: border-box;
+    margin: 0; 
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.Home{
+    text-align: left;
+    padding-top: 20rem;
+    padding-left: 10rem;
+    margin-bottom: 20rem;
+    margin-left: 20rem;
+    line-height: 1;
+    display: block;
+    justify-content:end;
+    
+}
+
+.Majorie-Najjombwe{
+    font-size: larger;
+    color: rgb(236, 140, 156);
+    font-weight: 900;
+}
+
+
+
+.About-me{
+    text-align: left;
+    padding-top: 1rem;
+    margin-bottom: 20rem;
+    margin-left: 0rem;
+    line-height: 1;
+    display: flex;
+    justify-content:end
+}
+
+.About-me img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    margin-left: 20rem;
+}
+
+.paragraph{
+    margin-left: 5rem;
+    margin-right: 20rem;
+    padding-top: 20px;
+    padding-bottom: 0;
+    text-align: justify;
+    line-height: 2;
+}
+
+main{
+    margin-left: 0rem;
+    margin-right: 0rem;
+    display: flex;
+    border-radius: 0%;
+}
+
+main h1{
+    margin-left: 2rem;
+}
+
+
+main img{
+    width:25%;
+    display: inline-block;
+    align-items: center;
+    margin-left: 30%;
+}
+
+.column{
+    float: left;
+    width: 50%;
+    padding: 30px;
+    margin-left: 40px;
+    margin-right: 40%;
+    padding-top: 20%;
+}
+
+.para{
+    margin-left: 10rem;
+}
+
+.subscribe-title{
+    align-items: baseline;
+    margin-left: 35%;
+    font-size: medium;
+    padding-top: 2rem;
+}
+
+.form-group{
+    width:80%;
+    margin:auto;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+}
+
+input{
+    outline: none;
+}
+
+#name,
+#email {
+    margin-top: 0.8rem;
+    border: none;
+    padding: 0.7rem;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+}
+
+#comment{
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    padding: 0.7rem;
+    height: 5rem;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+#submit{
+    padding: 0.7rem;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #5ACFC9;
+    border-radius: 0.3rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.contact{
+    margin-left: 45%;
+    font-size: small;
+    font-weight: bolder;
+    padding: 0.7rem;
+    padding-top: 10%;
+}
+
+.icons{
+    font-size: 2rem;
+}
+
+.footer{
+    padding-bottom: 10%;
+    padding-top: 10%;
+    
+    
+}
+
