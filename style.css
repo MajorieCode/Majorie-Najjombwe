@@ -187,15 +187,12 @@ main h1{
     font-weight: bolder;
 }
 
-.form-group input{
-    outline-color:black;
-    
-}
+
 
 #name,
 #email {
     margin-top: 0.8rem;
-    border:black;
+    border: 1px solid black;
     padding: 0.7rem;
     font-weight: 500;
     font-size: 1rem;
@@ -209,7 +206,7 @@ main h1{
     height: 5rem;
     font-size: 1.2rem;
     outline: black;
-    border: black;
+    border:1px solid black;
     border-radius: 0.3rem;
 }
 
