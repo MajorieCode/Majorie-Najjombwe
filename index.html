@@ -9,132 +9,118 @@
         <title>My portfolio</title>
     </head>
 
-    
-    <header>                          
-         MyPortfolio
-        <nav>
-           
-            <ul class="nav-class">
-                <li><a href="#Home">Home</a> </li>
-                <li><a href="#About-me">About me</a> </li>
-                <li><a href="#projects">My Projects</a> </li>
-                <li><a href="#contact">Contact</a> </li>    
-            </ul>
-        </nav>   
-                
-    </header>
-    
-    <body> 
-
-        <div class="Home">
-        </div>
-
-        <br>
-        <br>
-        <br>
-        <br>
-    
-        
-        <div class="About-me">
-            <img src="./Majorie.Najjombwe.jpg" alt="Image of Majorie Najjombwe">
-            
-            <div class="paragraph">
-                <h1 id="title">About Me</h1>
-                <p id="description">"I am a female Ugandan tech enthusiast. I hope to inspire more women and girls to love tech and software development." </p>
-            </div>
-        </div>
-                
-            
-            <br>
-            
-
-        <main>        
-            <div class="project">
-                
-                <div>
-                    <h1 id="title2">My Projects</h1>
-                </div>
-
-                <br>
-
-                <div class="projectdetails"> 
-                    
-                    <div class="row">
-                        <div class="column">
-                            <img  src="./Project2.PNG" alt="project" style="width:100%">
-                            <p>
-                                Check out the full details about my project
-                                <a href="https://nervous-darwin-5fb66b.netlify.app/" target="_blank">here.</a>
-                            </p>
-                            
-                        </div>
-
-                        <div class="column">
-                            <img  src="./project3.jpg" alt="project3" style="width:100%">
-                            <p>
-                                Future projects and prospects as a front-end developer
-                                <a href="https://nervous-darwin-5fb66b.netlify.app/" target="_blank">here.</a>
-                            </p>
-                            
-                        </div>
-
+    <body>
+        <header>                          
+            <div class="container">
+                <!--NavBar Section-->
+                <div class="nav">
+                    <div class="left-sec">
+                        <h2>MyPortfolio</h2>
                     </div>
+                    <div class="right-sec">
+                        <ul>
+                            <li><a href="#content">Home</li>
+                            <li><a href="#About-me"></a>About me</li>
+                            <li><a href="#project"></a>Projects</li>
+                            <li><a href="#contact"></a>Contact</li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <!--Contact-section-->
+               <div class="content">
+                <h2>HELLO! <br> I am MAJORIE NAJJOMBWE</h2>
+                
+               </div>
+            </div>
+        </header>
+            
+            
+            <div class="About-me">
+                <img src="./Majorie.Najjombwe.jpg" alt="Image of Majorie Najjombwe">
+                
+                <div class="paragraph">
+                    <h1 id="title">About Me</h1>
+                    <p id="description">"I am a female Ugandan tech enthusiast. I hope to inspire more women and girls to love tech and software development." </p>
+                    <button class="btn">RESUME</button>
+                </div>
+    
+            </div>
+                    
+                
+    
+            <main>        
+                <section class="project">
+                    
+                    <div>
+                        <h1 id="title2">My Projects</h1>
+                    </div>
+    
+                    <br>
+    
+                    <div class="projectdetails"> 
                         
-                              
-                </div>
-                
-                
-            </div>
-            
-        </main>
-
-        <br>
-        <br>
-        <br>
-
-
-        <footer class="footer">
-
-            <div class="subscribe-title">
-                <H1 id="subscribe title">Subscribe for daily notifications</H1>
-            </div>
-            <form>
-                <div class="form-group">
-                    <label for="name" id="name-label">Name</label>
-                    <input type="text" id="name" placeholder="Enter your name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email" id="email-label">Email</label>
-                    <input type="email" id="email" placeholder="Enter your email" required>
-                </div>
-                <div class="form-group">
-                    <p>Any comments or suggestions?</p>
-                    <textarea name="comment" id="comment" placeholder="Enter your comment"></textarea>
-                </div>
-                <div class="form-group">
-                    <button type="submit" id="submit">Submit</button>
-                </div>
-           </form>
-
-           <br>
-           <br>
-           <br>
-
-                <div class="contact">
-                    <h1>Get in touch</h1>
-                    
-                    <div class="icons">
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-facebook"></i>
-                        <i class="fa-brands fa-whatsapp"></i>
-                        <i class="fa-brands fa-instagram-square"></i>
+                        <div class="slider">
+                            
+                                <div class="column">
+                                    <img  src="./Project2.PNG" alt="project" style="width:100%">
+                                    <p>
+                                        Check out the full details about my project
+                                        <a href="https://nervous-darwin-5fb66b.netlify.app/" target="_blank">here.</a>
+                                    </p>
+                                    
+                                </div>
+           
+                        </div>
+                                    
                     </div>
+                    
+                </section>
                 
+            </main>
+    
+    
+            <footer class="footer">
+    
+                <div class="subscribe-title">
+                    <H1 id="subscribe title">Subscribe for daily notifications</H1>
                 </div>
-        </footer>
-
+                <form>
+                    <div class="form-group">
+                        <label for="name" id="name-label">Name</label>
+                        <input type="text" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" id="email-label">Email</label>
+                        <input type="email" id="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <p>Any comments or suggestions?</p>
+                        <textarea name="comment" id="comment" placeholder="Enter your comment"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" id="submit">Submit</button>
+                    </div>
+               </form>
+    
             
-        
+    
+                    <div class="contact">
+                        <h1>Get in touch</h1>
+
+                        <br>
+                        
+                        <div class="icons">
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <i class="fa-brands fa-instagram-square"></i>
+                        </div>
+                    
+                    </div>
+            </footer>
+    
+
     </body>
 
 </html>
